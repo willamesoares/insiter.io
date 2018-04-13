@@ -34,3 +34,17 @@ body {
   max-width: $wrapper-width;
   width: 90%;
 }
+
+.section {
+
+  h1::after {
+    background-color: $color-blue;
+    content: '';
+    height: .2rem;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: -1;
+  }
+}

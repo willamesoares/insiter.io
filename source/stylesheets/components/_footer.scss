@@ -1,0 +1,10 @@
+.footer {
+  background: $color-black;
+  color: $color-white;
+  padding: 1rem 0;
+  text-align: center;
+
+  &__logo {
+    font-size: 1.6875rem;
+  }
+}

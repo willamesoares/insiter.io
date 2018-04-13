@@ -1,6 +1,7 @@
 .map {
   background-color: #e5e3df;
   height: 18.75rem;
+  margin-bottom: 3rem;
 
   @include small() {
     height: 25rem;
